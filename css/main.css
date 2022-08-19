@@ -1,0 +1,621 @@
+::before
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:rgba(#Fbf0f4, 0.3) ;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.header_section{
+    background-color: rgba(#Fbf0f4, 0.3);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+.navbar_link{
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #150101;
+
+
+}
+.navbar_link:hover{
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color: #D23166;
+opacity: 1;
+}
+.navbar_btn{
+padding: 14px 50px;
+font-family: 'Hind Madurai';
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #FAFAFA;
+background: #D23166;
+border-radius: 5px;
+border: 1px solid #D23166   ;
+}
+.navbar_btn:hover{
+    background-color: #FAFAFA;
+    color: #D23166;
+}
+.intro{
+    
+    background-image: url(../images/bg-image.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.intro_wrapper{
+    width: 656px;
+    padding: 159px 0 220px 0;
+}
+.intro_leadtext{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+color: #0F0101;
+}
+.intro_title{
+font-weight: 700;
+font-size: 57.33px;
+line-height: 120.5%;
+color: #0F0101;
+opacity: 0.9;
+margin: 6px 0 35px;
+}
+.intro_title--pink{
+    color: #D23166;
+}
+.intro_text{
+    width: 563px;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 53px;
+}
+.intro_btn{
+    padding: 14px 50px;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166  
+}
+.intro_btn:hover{
+    background-color:  #FAFAFA;
+    color:  #D23166;
+    margin: 63px;
+}
+.delivery{
+    width: 1400px;
+    height: 200px;
+    left: 252px;
+    top: 962px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background:white;
+
+}
+.delivery_list{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+.delivery_items{
+    width: 250px;
+    height: 200px;
+    gap: 35px;
+}
+.delivery_image{
+    padding: 35px;
+}
+.details{
+  display: flex;
+  width: 1500px;
+  height: 500px;
+  border: 1px solid #F8EDF0;
+  align-items: right;
+  justify-content: space-between; 
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px; 
+  padding: px;
+  
+  background: #F8EDF0;
+
+}
+.details_itm{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    /* padding: 141px 998px 304px 253px; */
+    /* gap: 17px; */
+}
+.details_list{
+    width: 442px;
+    height: 256.71px;
+    gap: 17px;
+    /* padding:18px px 230px 252px ; */
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.details_head{
+    width: 349px;
+    height: 98px;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 141px 1400px 10px 5px;
+    justify-content: space-between;
+    font-size: 49px;
+    gap: 16px;
+}
+.details_image{
+    width: 555px;
+    height: 500px;
+    left: 768px;
+    top: 1190px;
+ 
+    margin: px 177px 3891px 768px;
+}
+.details_link{
+    width: 165px;
+    height: 49.13px;
+    left: 253px;
+    top: 1611.16px;
+    padding: 14px 50px;
+    margin: 35px;
+    gap: 35px;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+   
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166
+    
+    
+}
+.details_link:hover{
+    background-color: #FAFAFA;
+    color: #D23166;
+   
+}
+.product{
+     width: 1160px;
+     height: 1560px;
+     left: 0px;
+     top: 1807px;
+
+   
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0, 40px 40px 15px;
+    
+}
+.product_header{
+    display: flex;
+    justify-content: center;
+
+}
+.product_nav{
+display: flex;
+display-flex:  ;
+}
+.h1{
+    align-items: center;
+}
+.Feedback{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-start; */
+}
+.product_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Roboto',sans-serif;
+    text-decoration-color:  #000000;
+}
+.brown{
+    width: 1119px;
+    height: 415px;
+    left: 251px;
+    top: 2140px;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    justify-content: center;
+
+}
+.brown_item{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+}
+.brown_list{
+    padding: 107px 20px ;
+}
+.brown_image{
+   width: 580px;
+   height: 415px;
+   left: 251px;
+   top: 2140px;
+   background: url(YsS5sVYwga);
+}
+.brown_head{
+   width: 152px;
+   height: 36px;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+}
+.brown_head{
+    font-size: 24px;
+    width: 152px;
+    height: 36px;
+    left: 916px;
+    top: 2200px;
+}
+.brown_text{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    float: none;
+    font-size: 24px;
+
+}
+.chocolate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: wrap;
+    gap: 32px;
+}
+.chocolate_ico{
+    
+    width: 71px;
+    height: 27px;
+    gap: 5px;
+    justify-content: space-between;
+}
+.chocolate_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 49px;
+    left: 580px;
+    top: 2861px;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166
+    padding: 14px 50px;
+    margin: 5px;
+    
+    color:  #FAFAFA;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+.chocolate_text{
+    width: 444px;
+    height: 67px;
+}
+.chocolate_link:hover{
+   color: #D23166;
+    background-color:  #FAFAFA;
+}
+.sweet{
+    display: flex;
+    width: 1121px;
+    height: 425px;
+    border:1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.sweet_text{
+    width: 454px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    left: 916px;
+     top: 3173px;
+ 
+}
+.sweet_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 49px;
+    left: 580px;
+    top: 2861px;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166
+    padding: 14px 50px;
+    margin: 5px;
+    /* gap: 35px; */
+    color:  #FAFAFA;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 32px;
+}
+.sweet_link:hover{
+    color: #D23166;
+    background-color:  #FAFAFA;
+}
+.adeli{
+    display: flex;
+    margin:  50px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.adeli_list{
+    display: flex;
+    font-size: 18px;
+}
+.from{
+    width: 77px;
+    height: 15px;
+    left: 78px;
+    top: 13px;
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    gap: 5px;
+    position: absolute;
+}
+.edeli_imag{
+    justify-content: center;
+    align-items: center;
+    justify-items: right;
+}
+.adeli_item{
+    width: 270px;
+    height: 60px;
+    /* border: 1px solid black; */
+    justify-content:center ;
+    align-items: center;
+
+}
+.adeli_text{
+    width: 322px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 46px;
+}
+.list_imag{
+    display: flex;
+    justify-content: space-between;
+
+}
+.imags_btn{
+    width: 60px;
+    height: 40px;
+    border: 1px solid white;
+    /* padding: 0 25px 27px;
+    margin: 0 auto; */
+    border-radius: 5px;
+}
+.Download{
+    display: flex;
+    
+    height: 678px;
+    width: 1500px;
+
+   
+    
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background: #F8EDF0;
+}
+.Group_header{
+
+   
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.Group_text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+.Group_child{
+    width: 625px;
+    height: 600px;
+  
+}
+.Mask_Group{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   
+    left: 200px;
+}
+.Google_play{
+    position: absolute;
+    left: 600px;
+}
+.Group_image{
+   
+    width: 305px;
+    height: 627px;
+}
+.question{
+    display: flex;
+    width: 1600px;
+    height: 565px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.question_item{
+    justify-content: center;
+    align-items: center;
+    width: 637px;
+    height: 344px;
+    left: 482px;
+    top: 215px;
+    /* border: 1px solid; */
+    position: absolute;
+}
+.question__border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ 
+}
+.question_text{
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.question__child{
+    display: flex;
+    width: 303px;
+    height: 74px;
+    border: 1px solid  #FFA3A3;
+    background: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+   gap: 30px;
+}
+.your_question{
+    display: flex;
+    /* border: 1px solid; */
+    width: 800px;
+}
+.question_link{
+    padding: 14px 50px;
+    font-family: 'Hind Madurai';
+    font-weight: 140;
+    font-size: 34px;
+    line-height: 10px;
+    color: #FAFAFA;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166;
+    justify-content: left;
+    float: right;
+
+}
+
+.question__btm{
+    /* display: flex;  */
+    justify-content: right;
+    align-items: center;
+    float: inline-start;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid;
+    
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word ;
+    background: #000000;
+    justify-content:space-around ;
+    
+    border: 1px solid blue;
+    width: 1600px;
+    height: 400px;
+    float: right;
+    text-decoration-color: white;
+    position: relative;
+}  
+.Footer_item{
+    position: absolute;
+    top: 1px;
+    padding: 70px;
+    justify-content: center;
+} 
+.list{
+    display: flex;
+     
+}
+.footer_list{
+    color: #FFFFFF;
+    gap: 10px;
+}  
+.list__child{
+    width: 207px;
+    height: 47px;
+}
